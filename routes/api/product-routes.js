@@ -84,7 +84,7 @@ router.get('/:id', (req, res) => {
 
 
 // create new product
-// SAYS IT'S NOT WORKING, BUT ACTUALLY DOES ADD NEW PRODUCT
+// ADDS PRODUCT TWICE!
 router.post('/', (req, res) => {
   Product.create({
     product_name: req.body.product_name,
