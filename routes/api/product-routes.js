@@ -125,16 +125,13 @@ router.post('/', (req, res) => {
 // update product // NOT WORKING
 router.put('/:id', (req, res) => {
   // update product data
-  Product.update(
-    {
-      name: req.body.product_name
-    },
+  Product.update(req.body,
+  
     {
       where: {
-        id: req.params.id,
+        id: req.params.id
       }
-    }
-  )
+    })
     .then((product) => {
       // find all associated tags from ProductTag
       return ProductTag.findAll({ where: { product_id: req.params.id } });
