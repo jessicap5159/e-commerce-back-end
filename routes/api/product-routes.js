@@ -84,7 +84,6 @@ router.get('/:id', (req, res) => {
 
 
 // create new product
-// ADDS PRODUCT TWICE!
 router.post('/', (req, res) => {
   Product.create({
     product_name: req.body.product_name,
@@ -100,7 +99,6 @@ router.post('/', (req, res) => {
       tagIds: [1, 2, 3, 4]
     }
   */
-  Product.create(req.body)
     .then((product) => {
       // if there's product tags, we need to create pairings to bulk create in the ProductTag model
       if (req.body.tagIds.length) {
@@ -122,7 +120,7 @@ router.post('/', (req, res) => {
     });
 });
 
-// update product // NOT WORKING
+// update product 
 router.put('/:id', (req, res) => {
   // update product data
   Product.update(req.body,
