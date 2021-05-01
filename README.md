@@ -23,7 +23,7 @@ Please see the description.
 Many thanks to Megan Close and Tim Weyel; also stackoverflow.com.
 
 ## License
-Project covered under [MIT license] (choosealicense.com/licenses/mit)
+Project covered under [MIT license] (https://choosealicense.com/licenses/mit/)
 
 ## Contributing
 To contribute to this project, please email me at the address below. 
