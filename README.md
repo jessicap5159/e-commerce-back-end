@@ -14,7 +14,7 @@ This is the back-end code for an e-commerce website, with API routes for getting
 
 ## Installation
 Instructions:
-Click the URL [here](https://drive.google.com/file/d/1t3TCRmhH-sFyejV8Mku44G1lY6xtqFgb/preview").
+Click the URL [here](https://drive.google.com/file/d/1t3TCRmhH-sFyejV8Mku44G1lY6xtqFgb/preview).
 
 ## Usage
 Please see the description.
